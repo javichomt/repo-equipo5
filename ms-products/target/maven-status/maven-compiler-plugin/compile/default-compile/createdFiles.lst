@@ -1,0 +1,7 @@
+com/workdocker/app/MsProductsApplication.class
+com/workdocker/app/service/ProductServiceImpl.class
+com/workdocker/app/service/IProductService.class
+com/workdocker/app/controller/ProductController.class
+com/workdocker/app/entities/Product.class
+com/workdocker/app/service/DataGenerator.class
+com/workdocker/app/repository/ProductRepository.class

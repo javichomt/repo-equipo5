@@ -1,0 +1,7 @@
+/Users/moisesrodriguez/HomeMoises/ cursokuber/final/ms-products/src/main/java/com/workdocker/app/MsProductsApplication.java
+/Users/moisesrodriguez/HomeMoises/ cursokuber/final/ms-products/src/main/java/com/workdocker/app/controller/ProductController.java
+/Users/moisesrodriguez/HomeMoises/ cursokuber/final/ms-products/src/main/java/com/workdocker/app/entities/Product.java
+/Users/moisesrodriguez/HomeMoises/ cursokuber/final/ms-products/src/main/java/com/workdocker/app/repository/ProductRepository.java
+/Users/moisesrodriguez/HomeMoises/ cursokuber/final/ms-products/src/main/java/com/workdocker/app/service/DataGenerator.java
+/Users/moisesrodriguez/HomeMoises/ cursokuber/final/ms-products/src/main/java/com/workdocker/app/service/IProductService.java
+/Users/moisesrodriguez/HomeMoises/ cursokuber/final/ms-products/src/main/java/com/workdocker/app/service/ProductServiceImpl.java
