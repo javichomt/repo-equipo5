@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: pf-service
+  namespace: pf-app-ns
+spec:
+  selector:
+    app: pf-app
+  ports:
+    - protocol: TCP
+      port: 80  # Puerto del Service accesible para otros componentes del clúster.
+      targetPort: 7654 # Puerto en el contenedor donde corre la aplicación
+  type: NodePort #ClusterIP

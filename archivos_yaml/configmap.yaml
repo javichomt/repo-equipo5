@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: pf-app-config
+  namespace: pf-app-ns
+data:
+  SPRING_DATASOURCE_URL: "jdbc:h2:mem:testdb"
+  SPRING_DATASOURCE_USERNAME: "sa"
+  SPRING_DATASOURCE_PASSWORD: ""
+  DK_PARTICIPANTE: "MOISES,ROOSEVELT,JAVIER Y JEASON"

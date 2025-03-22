@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: pf-app
+  namespace: pf-app-ns
+  labels:
+    app: pf-app
+spec:
+  replicas: 2  # Configuramos el número de réplicas demo3.
+  selector:
+    matchLabels:
+      app: pf-app
+  template:
+    metadata:
+      labels:
+        app: pf-app
+    spec:
+      containers:
+      - name: pf-app
+        image: mrodriguezcursos0602/pf_imagen03:latest  # Imagen del contenedor.
+        ports:
+        - containerPort: 7654  # Puerto expuesto dentro del contenedor.
+        envFrom:
+            - configMapRef:
+                name: pf-app-config
